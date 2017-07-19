@@ -1,19 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Home</title>
-</head>
-<body>
+ <title>Emergency</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+h1 {
+    text-align: center;
+    color: Teal;
+    text-shadow: 3px 2px GoldenRod;
+    font-family:Snell Roundhand;
+    font-style: italic;
+    font-size: 50px;
 
-<h1>Emergency Videos</h1>
-<p>Click on a emergency type.</p>
-<ul>
-  <li><a href="fire.html">Fire</a></li>
-  <li><a href="tornado.html">Tornado</a></li>
-  <li><a href="hurricane.html">Hurricane </a></li>
-</ul>
-<h2>About Us</h2>
-<p2>We want to educate the public about what to do in emergency situations. Everyone panics and we are here to help.</p2>
+}
+article {
+    margin-left: 250px;
+    border-left: 1px black;
+    padding: 2em;
+    overflow: hidden;
+    display: inline-block;
+}
+.fire {
+    list-style-type: none;
+    margin: 2;
+    padding: 7;
+    overflow: hidden;
+    background-color: black;
+    background-image: url("https://66.media.tumblr.com/2a47af72f026f354a78f52daf9cf0783/tumblr_ngzy4qLlpt1stpmnfo1_500.gif");
+
+}
+.tornado {
+list-style-type: none;
+    margin: 2;
+    padding: 7;
+    overflow: hidden;
+    background-color: black;
+    background-image: url("https://68.media.tumblr.com/09d18c73850849a59a8adacf581f3a23/tumblr_inline_opl9p8veM41srob4n_540.gif");
+ }
+
+.hurricane {
+list-style-type: none;
+    margin: 2;
+    padding: 7;
+    overflow: hidden;
+    background-color:black ;
+    background-image: url("https://media.giphy.com/media/FpLeGOHk2MNi0/giphy.gif");
+    color: red;
+ }
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #B0C4DE;
+</style>
+</head>
+
+<body>
+<div class="jumbotron text-center">
+  <h1>Emergency Videos</h1>
+  <center>
+  <p>Resize this responsive page to see the effect!</p>
+  </center>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <ul class="fire">
+      <font size="25">
+      <li style="font-family:courier; color: white; " > <a href="fire.html">Fire</a></li>
+      </font>
+      </ul>
+    </div>
+
+    <div class="col-sm-4">
+    <ul class="hurricane">
+    <font size="25">
+      <li style="font-family:courier;"><a href="hurricane.html">Hurricane</a></li>
+      </font>
+      </ul>
+    </div>
+    <div class="col-sm-4">
+    <ul class="tornado">
+    <font size="25">
+      <li style="font-family:courier;"><a href="tornado.html">Tornado</a></li>
+      </font>
+     </ul>
+
+    </div>
+  </div>
+</div>
+
+
 
 </body>
 </html>
