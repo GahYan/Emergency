@@ -1,54 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Fire</title>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .list {
+    list-style-type: none;
+  }
+
+  h1 {
+      text-align: center;
+      color: Teal;
+      text-shadow: 3px 2px GoldenRod;
+      font-family:Snell Roundhand;
+      font-style: italic;
+      font-size: 50px;
+
+  }
+  h2 {
+    font-family: Caudex;
+    font-style: italic;
+    font-size:40px;
+    color: MediumAquaMarine;
+
+  }
+
+  h3 {
+ font-family: Impact;
+ color: GoldenRod;
+  }
+ </style>
+
 </head>
 <body>
 
-<h1><a href="homepage.html">Emergency Videos</a></h1>
-<h2>Tornado</h2>
-<h3>Useful Links and Phone Numbers</h3>
-<ul>
-  <li>For emergency call 911</li>
-  <li><a href="https://www.disasterassistance.gov">Apply for disaster assistance</a></li>
-  <li><a href="https://asd.fema.gov/inter/locator/home.htm">Find a recovery center near you</a></li>
-</ul>
+<div class="jumbotron text-center">
+  <h1><a href="homepage.html">Emergency Videos</h1>
+  <center>
+  <p>Resize this responsive page to see the effect!</p>
+</div>
+
+<div class="subtitle">
+<center>
+    <h2>Fire</h2>
+  </center>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      </ul>
 <h3>What to do</h3>
-<ul>
-  <li><iframe width="420" height="315"
-src="https://www.youtube.com/embed/PxSvpd_RRXk"  allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen">
+<ul class="list">
+  <li><iframe width="100%" height="315"
+src="https://www.youtube.com/embed/PxSvpd_RRXk">
 </iframe></li>
-  <li><iframe width="420" height="315"
+  <li><iframe width="100%" height="315"
 src="https://www.youtube.com/embed/FbLUsHpJos4">
 </iframe></li>
-  <li><iframe width="420" height="315"
+  <li><iframe width="100%" height="315"
 src="https://www.youtube.com/embed/wArHgm3Dupc">
 </iframe></li>
 </ul>
-<h3>Additional information</h3>
-<ul>
-  <li><iframe width="420" height="315"
+    </div>
+
+    <div class="col-sm-4">
+      <h3>Additional Information</h3>
+      <ul class="list">
+  <li><iframe width="100%" height="315"
 src="https://www.youtube.com/embed/nNOHx4li9a4">
 </iframe></li>
-  <li><iframe width="420" height="315"
+  <li><iframe width="100%" height="315"
 src="https://www.youtube.com/embed/C8k59QsMqcg">
 </iframe></li>
-  <li><iframe width="420" height="315"
+  <li><iframe width="100%" height="315"
 src="https://www.youtube.com/embed/eorzj0FgehA">
 </iframe></li>
 </ul>
+    </div>
 
-<h3>Historical information videos</h3>
-<ul>
-  <li><iframe width="420" height="315"
+    <div class="col-sm-4">
+      <h3>Experiences</h3>
+      <ul class="list">
+  <li><iframe width="100%" height="315"
 src="https://www.youtube.com/embed/VZhvbmqYniA">
 </iframe></li>
-  <li><iframe width="420" height="315"
+  <li><iframe width="100%" height="315"
 src="https://www.youtube.com/embed/hkUQ3rTfU4s">
 </iframe></li>
-  <li><iframe width="420" height="315"
+  <li><iframe width="100%" height="315"
 src="https://www.youtube.com/embed/TgNX7Lf6T8g">
 </iframe></li>
 </ul>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
